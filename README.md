@@ -6,7 +6,7 @@
 ## WHY | 使用情境
 
 ```
-
+         TRGET BOARD                                         BUILD SYSTEM
 +----------------------------+                       +-------------------------+
 | - /usr/local/lib/libxxx.so |====== (network) ======| /sdk/target/rootfs      |
 | - /etc/config/xxx.conf     |                       | ├── etc/...             |

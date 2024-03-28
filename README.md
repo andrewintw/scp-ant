@@ -28,11 +28,11 @@
 scp-ant 只是一支 bash script，使用前您需要修改程式碼中的變數。改成你要複製過去的目標主機目錄即可
 
 ```
-rmt_host="192.168.1.31"
-rmt_user="ant"
-rmt_port=22
-rmt_basedir="/home/ant/target/rootfs"
-sshpass_passwd="your_password"
+rmt_host="你的 ssh-server ip 地址"
+rmt_user="登入 ssh-server 的帳號"
+rmt_port="ssh 使用的 port"
+rmt_basedir="想要將檔案複製到哪個資料夾下"
+sshpass_passwd="ssh 登入密碼"
 ```
 
 file_list 則是你想要從裝置端取出，並傳送到遠端伺服器目錄的檔案清單
